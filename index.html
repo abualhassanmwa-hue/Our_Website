@@ -909,7 +909,7 @@ html[dir="rtl"] .footer__links a:hover{padding-inline-start:4px}
       </div>
 
       <div class="form-group"><label class="form-label" for="edTech" data-i18n="edit.tech"></label><input class="form-input form-input--ltr" type="text" id="edTech" placeholder="HTML, CSS, JavaScript" dir="ltr"></div>
-      <div class="form-group"><label class="form-label" for="edImageUrl" data-i18n="edit.image"></label><input class="form-input form-input--ltr" type="url" id="edImageUrl" placeholder="https://.../image.jpg" dir="ltr"><div class="image-preview" id="edImagePreview" data-i18n="edit.imagePreview"></div></div>
+      <div class="form-group"><label class="form-label" for="edImageUrl" data-i18n="edit.image"></label><input class="form-input form-input--ltr" type="text" id="edImageUrl" placeholder="image/your-image.webp" dir="ltr"><div class="image-preview" id="edImagePreview" data-i18n="edit.imagePreview"></div></div>
 
       <div class="form-actions">
         <button class="btn btn--ghost" type="button" data-close data-i18n="common.cancel"></button>
@@ -946,7 +946,7 @@ const INITIAL_PROJECTS = [
     category: { ar: "موارد بشرية", en: "HR / Recruitment" },
     categoryKey: "hr",
     description: { ar: "موقع بورتفوليو احترافي للموارد البشرية والتوظيف بدعم كامل للعربية والإنجليزية.", en: "Professional HR and recruitment portfolio website with bilingual support." },
-    image: "", visualType: "hr",
+    image: "image/hr-recruitment.webp", visualType: "hr",
     liveUrl: "https://abualhassanmwa-hue.github.io/PREMIUM-HR-RECRUITMENT-PORTFOLIO/",
     githubUrl: "", technologies: ["HTML", "CSS", "JS"],
     visible: true, order: 1, featured: true
@@ -957,7 +957,7 @@ const INITIAL_PROJECTS = [
     category: { ar: "هندسة", en: "Engineering" },
     categoryKey: "engineering",
     description: { ar: "موقع بورتفوليو هندسي احترافي لعرض المشاريع والخبرات.", en: "Professional engineering portfolio showcasing projects and experience." },
-    image: "", visualType: "engineering",
+    image: "image/engineering.webp", visualType: "engineering",
     liveUrl: "https://abualhassanmwa-hue.github.io/EngPort/",
     githubUrl: "", technologies: ["HTML", "CSS", "JS"],
     visible: true, order: 2, featured: false
@@ -968,7 +968,7 @@ const INITIAL_PROJECTS = [
     category: { ar: "إنشاءات", en: "Construction" },
     categoryKey: "construction",
     description: { ar: "موقع حديث لشركة إنشاءات مع عرض المشاريع والخدمات.", en: "Modern construction company website with project showcase and services." },
-    image: "", visualType: "construction",
+    image: "image/construction.webp", visualType: "construction",
     liveUrl: "https://abualhassanmwa-hue.github.io/constraction/",
     githubUrl: "", technologies: ["HTML", "CSS", "JS"],
     visible: true, order: 3, featured: false
@@ -979,7 +979,7 @@ const INITIAL_PROJECTS = [
     category: { ar: "محاماة", en: "Lawyer" },
     categoryKey: "lawyer",
     description: { ar: "موقع محامي بالعربية بتصميم أنيق لعرض مجالات الاختصاص والخدمات.", en: "Elegant Arabic lawyer website presenting practice areas and services." },
-    image: "", visualType: "lawyer",
+    image: "image/lawyer.webp", visualType: "lawyer",
     liveUrl: "https://abualhassanmwa-hue.github.io/lawyer-portfolio/",
     githubUrl: "", technologies: ["HTML", "CSS", "JS"],
     visible: true, order: 4, featured: false
@@ -990,7 +990,7 @@ const INITIAL_PROJECTS = [
     category: { ar: "تعليم", en: "Education" },
     categoryKey: "education",
     description: { ar: "منصة دورات عربية مع عرض الدورات وتتبع التقدم.", en: "Arabic learning platform with course catalogue and progress tracking." },
-    image: "", visualType: "education",
+    image: "image/arabic-courses.webp", visualType: "education",
     liveUrl: "https://abualhassanmwa-hue.github.io/Arabic-Courses-Platform-Mockup/",
     githubUrl: "", technologies: ["HTML", "CSS", "JS"],
     visible: true, order: 5, featured: false
@@ -1001,7 +1001,7 @@ const INITIAL_PROJECTS = [
     category: { ar: "طب", en: "Medical" },
     categoryKey: "medical",
     description: { ar: "موقع حديث لعيادة أسنان مع حجز مواعيد.", en: "Modern dental clinic website with appointment booking." },
-    image: "", visualType: "dental",
+    image: "image/dental-clinic.webp", visualType: "dental",
     liveUrl: "https://abualhassanmwa-hue.github.io/sana-dental-clinic-unique/",
     githubUrl: "", technologies: ["HTML", "CSS", "JS"],
     visible: true, order: 6, featured: false
@@ -1012,7 +1012,7 @@ const INITIAL_PROJECTS = [
     category: { ar: "مطاعم", en: "Restaurant" },
     categoryKey: "restaurant",
     description: { ar: "موقع عصري لمقهى مع القائمة والقصة.", en: "Modern coffee shop website with menu and story section." },
-    image: "", visualType: "coffee",
+    image: "image/restaurant.webp", visualType: "coffee",
     liveUrl: "https://abualhassanmwa-hue.github.io/morrow-coffee-shop-v1/",
     githubUrl: "", technologies: ["HTML", "CSS", "JS"],
     visible: true, order: 7, featured: false
@@ -1023,7 +1023,7 @@ const INITIAL_PROJECTS = [
     category: { ar: "مطاعم", en: "Restaurant" },
     categoryKey: "restaurant",
     description: { ar: "موقع مطعم عراقي تقليدي بتصميم عربي أولاً.", en: "Traditional Iraqi restaurant website with Arabic-first design." },
-    image: "", visualType: "restaurant",
+    image: "image/maida-iraqi.webp", visualType: "restaurant",
     liveUrl: "https://abualhassanmwa-hue.github.io/maida-iraqi-restaurant-/",
     githubUrl: "", technologies: ["HTML", "CSS", "JS"],
     visible: true, order: 8, featured: false
@@ -1034,7 +1034,7 @@ const INITIAL_PROJECTS = [
     category: { ar: "مطاعم", en: "Restaurant" },
     categoryKey: "restaurant",
     description: { ar: "موقع مطعم راقٍ مع القائمة والحجوزات.", en: "Refined restaurant website with menu and reservations." },
-    image: "", visualType: "restaurant",
+    image: "image/maeda-restaurant.webp", visualType: "restaurant",
     liveUrl: "https://abualhassanmwa-hue.github.io/maeda-restaurant-v2/",
     githubUrl: "", technologies: ["HTML", "CSS", "JS"],
     visible: true, order: 9, featured: false
@@ -1045,7 +1045,7 @@ const INITIAL_PROJECTS = [
     category: { ar: "عقارات", en: "Real Estate" },
     categoryKey: "realestate",
     description: { ar: "موقع عقاري فاخر مع عرض العقارات.", en: "Premium real estate listing website with property showcase." },
-    image: "", visualType: "realestate",
+    image: "image/aurelia-real-estate.webp", visualType: "realestate",
     liveUrl: "https://abualhassanmwa-hue.github.io/aurelia-real-estate-pro/",
     githubUrl: "", technologies: ["HTML", "CSS", "JS"],
     visible: true, order: 10, featured: false
@@ -1056,7 +1056,7 @@ const INITIAL_PROJECTS = [
     category: { ar: "مطاعم", en: "Restaurant" },
     categoryKey: "restaurant",
     description: { ar: "موقع مطعم عصري بهوية عربية.", en: "Contemporary restaurant with Arabic identity." },
-    image: "", visualType: "restaurant",
+    image: "image/nakha-restaurant.webp", visualType: "restaurant",
     liveUrl: "https://abualhassanmwa-hue.github.io/nakha-restaurant-demo/",
     githubUrl: "", technologies: ["HTML", "CSS", "JS"],
     visible: true, order: 11, featured: false
@@ -1347,7 +1347,7 @@ const WHO_CARDS = [
 ];
 
 // Bumped to v3 so old cached data is invalidated and all real URLs appear
-const STORAGE_KEY = "abu_alhassan_projects_v3";
+const STORAGE_KEY = "abu_alhassan_projects_v4";
 const LANG_KEY = "preferredLanguage";
 let currentLang = "ar";
 let projects = [];
